@@ -65,12 +65,15 @@
     }
 
     /* Add company logo */
-    .logo {
-      position: absolute;
+    .logo {      
+      position: fixed;
       top: 10px;
       left: 10px;
-      width: 80px;
+      width: 70px;
       height: auto;
+      display: block;
+      border-radius: 50%;
+      z-index: 1000;
     }
 
     /* Services Section */
@@ -226,16 +229,6 @@
       background-size: cover;
     }
 
-    .logo {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 70px; /* Adjust width as needed */
-        border-radius: 50%;
-        position: fixed;
-        top: 10px;
-        z-index: 1000;
-      }
       /*UPI Copu Button Style*/
       .copy-container {
       display: flex;
